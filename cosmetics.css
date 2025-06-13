@@ -1,0 +1,76 @@
+h1{
+    color: rgb(14, 19, 19);
+    font-size: 50px;
+    line-height: 4px;
+    
+}
+header :hover{
+    color: rgb(220, 36, 36);
+    transition-duration: 1s ;
+    transition-timing-function:ease-out;
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: url("myimage.jpg");
+    background-size: cover;
+}
+main{
+    margin: 10px;
+}
+
+#logo{
+    position: fixed;
+    top: 390px;
+    left: 382px;
+}
+#image2{
+    position: fixed;
+    top: 100px;
+    left: 650px;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+#image1{
+    position:fixed;
+    top:100px;
+    left: 360px;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#logo1{
+    position: fixed;
+    top: 390px;
+    left: 730px;
+}
+p{
+     position: fixed;
+    top: 450px;
+    left: 470px;
+    color: deeppink;
+}
+div :hover{
+    background-color:rgb(26, 77, 66);
+    color: beige;
+     transition-duration: 2s ;
+     transform: rotate(360deg);
+     transform: scale(2);
+
+}
+  p:hover{
+    transform: scale(2);
+}
+#image1:hover{
+    background-color:rgb(26, 77, 66);
+    color: beige;
+     transition-duration: 2s ;
+}
+#image2:hover{
+    background-color:rgb(26, 27, 77);
+    color: beige;
+     transition-duration: 2s ;
+}
